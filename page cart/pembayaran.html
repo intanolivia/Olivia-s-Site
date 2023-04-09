@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pembayaran Flowerfull </title>
+
+<link rel="stylesheet" href="htt">
+
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!-- font awesome cdn link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+<!-- custom css file link -->
+<link rel="stylesheet" href="pembayaran.css">
+
+</head>
+<body>
+    
+<!-- header section starts -->
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">flowerfull<span>.</span></a>
+
+    <nav class="navbar">
+              <a class="nav-link" href="../index.html">Home</a>
+              <a class="nav-link" href="../index.html"> About </a>
+              <a class="nav-link" href="../index.html">Products</a>
+              <a class="nav-link" href="../index.html"> Review </a>
+              <a class="nav-link" href="../index.html"> Contact</a>
+    </nav>
+
+    <div class="icons">
+        <a href="../index.html" class="fas fa-heart"></a>
+        <a href="../page cart/cart.html" class="fas fa-shopping-cart"></a>
+        <a href="../page register/register.html" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- payment section starts -->
+
+<section class="payment" id="payment">
+
+</section>
+
+    <!-- JUDUL HALAMAN -->
+    <section class="payment" id="payment">
+        <h1 class="heading"> Our Payments </h1>
+     <div class="row">
+        <div class="col-12">
+        <div class="table-responsive">
+        </div>
+    </div>
+</div>
+</section>
+<div class="row" style="font-size: medium;">
+
+    <!-- KOLOM 1 -->
+    <div class="col-md-6">
+        <form>
+            <h3 class="text-judul" style="margin-left: 5px; font-weight: bolder;">Alamat Pengiriman</h3>
+            <label class="w-100 mb-3" style="margin-left: 5px">
+                Complete Address <br>
+                <input type="text" class="form-control">
+            </label>
+            <label class="w-100 mb-3" style="margin-left: 5px">
+                Province <br>
+                <input type="text" class="form-control">
+            </label>
+            <label class="w-100 mb-3" style="margin-left: 5px">
+                Regency/City <br>
+                <input type="text" class="form-control">
+            </label>
+            <label class="w-100 mb-3" style="margin-left: 5px">
+                POS Code <br>
+                <input type="number" class="form-control">
+            </label>
+
+            <h3 class="text-judul mt-5" style="margin-left: 5px; font-weight: bolder;">Kurir Pengiriman</h3>
+            <label class="w-100 mb-3 border rounded p-2" style="background-color: #fff; margin-left: 5px;">
+                <input type="radio" name="kurir">
+                <img src="../picture-f/kurir-1.png">
+                <span class="float-end">+ IDR 10.000</span>
+            </label>
+            <label class="w-100 mb-3 border rounded p-2" style="background-color: #fff; margin-left: 5px;">
+                <input type="radio" name="kurir">
+                <img src="../picture-f/kurir-2.png">
+                <span class="float-end">+ IDR 12.000</span>
+            </label>
+
+
+            <h3 class="text-judul mt-5" style="margin-left: 5px; font-weight: bolder;">Metode Pembayaran</h3>
+            <label class="w-100 mb-3 border rounded p-2" style="background-color: #fff; margin-left: 5px;">
+                <input type="radio" name="pembayaran">
+                Bank Transfer
+            </label>
+            <label class="w-100 mb-3 border rounded p-2" style="background-color: #fff; margin-left: 5px;">
+                <input type="radio" name="pembayaran">
+                Cash on Delivery (COD)
+            </label>
+            <label class="w-100 mb-3 border rounded p-2" style="background-color: #fff; margin-left: 5px;">
+                <input type="radio" name="pembayaran">
+                <img src="../picture-f/bayar-1.png">
+            </label>
+            <label class="w-100 mb-3 border rounded p-2" style="background-color: #fff; margin-left: 5px;">
+                <input type="radio" name="pembayaran">
+                <img src="../picture-f/bayar-2.png">
+            </label>
+            <label class="w-100 mb-3 border rounded p-2" style="background-color: #fff; margin-left: 5px;">
+                <input type="radio" name="pembayaran">
+                <img src="../picture-f/bayar-3.png">
+            </label>
+
+        </form>
+    </div>
+
+    <!-- KOLOM 2 -->
+    <div class="col-md-4 offset-md-1">
+        <div class="card sticky">
+          <div class="card-header bg-white">
+            <h3 class="text-judul" style="font-weight: bolder;"> Payment Details</h3>
+          </div>
+          <div class="card-body">
+            <div class="row mt-2 mb-2">
+                <div class="col-md"><small>Sub Total</small></div>
+                <div class="col-md">IDR 198.000</div>
+            </div>
+            <div class="row mt-2 mb-2">
+                <div class="col-md"><small> Shipping Cost</small></div>
+                <div class="col-md">IDR 0</div>
+            </div>
+            <div class="row mt-2 mb-2">
+                <div class="col-md"><small>Total</small></div>
+                <div class="col-md">IDR 198.000</div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button type="submit" class="btn btn-lg btn-success w-100"> Checkout </button>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+</section>
+<!-- payment section ends -->
+
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
